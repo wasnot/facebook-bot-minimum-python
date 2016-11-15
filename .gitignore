@@ -87,3 +87,25 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+
+### PyCharm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+*.iml
+modules.xml
+
+
+### AppEngine ###
+# Google App Engine generated folder
+appengine-generated/
+
+# Add option
+.idea/*
+!.idea/encodings.xml
+
+# secret
+secret.py
+
+.DS_Store
